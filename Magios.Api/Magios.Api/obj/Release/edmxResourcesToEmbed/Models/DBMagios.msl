@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBMagiosModelStoreContainer" CdmEntityContainer="DBMagiosEntities">
+    <EntitySetMapping Name="Inscripciones">
+      <EntityTypeMapping TypeName="DBMagiosModel.Inscripciones">
+        <MappingFragment StoreEntitySet="Inscripciones">
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="NumeroVela" ColumnName="NumeroVela" />
+          <ScalarProperty Name="ClaseBarco" ColumnName="ClaseBarco" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IdCampeonato" ColumnName="IdCampeonato" />
+          <ScalarProperty Name="IdInscripcion" ColumnName="IdInscripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Campeonatos">
+      <EntityTypeMapping TypeName="DBMagiosModel.Campeonatos">
+        <MappingFragment StoreEntitySet="Campeonatos">
+          <ScalarProperty Name="Campeonato" ColumnName="Campeonato" />
+          <ScalarProperty Name="idCampeonato" ColumnName="idCampeonato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
