@@ -57,3 +57,6 @@ C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\EntityFramework.dll
 C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\EntityFramework.SqlServer.dll
 C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\EntityFramework.xml
 C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\System.Web.Cors.dll
+C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\System.Web.Http.Cors.dll
+C:\Proyectos\Magios\Magios.Api\Magios.Api\bin\System.Web.Http.Cors.xml

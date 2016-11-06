@@ -1,9 +1,11 @@
 ﻿using Magios.Api.Models;
 using Magios.Api.Repositories;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Magios.Api.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class InscripcionController : ApiController
     {
         [Route("api/Inscripcion")]
